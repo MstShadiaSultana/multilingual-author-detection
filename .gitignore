@@ -1,0 +1,35 @@
+# Text datasets, regardless of filename or location.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.pdf
+*.docx
+*.pptx
+*.epub
+*.txt
+!requirements.txt
+data/*
+!data/README.md
+
+# Trained models, checkpoints, and runtime output.
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+checkpoints/
+outputs/
+wandb/
+runs/
+
+# Local configuration and Python artifacts.
+.env*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+*.py[cod]
